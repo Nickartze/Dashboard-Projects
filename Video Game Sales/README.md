@@ -1,6 +1,9 @@
 # Video Game Sales 1971-2024 Dashboard 
 "Video game sales from North America, Japan, the EU, Africa, and the rest of the world for 64,016 titles released from 1971-2024, including information like critic's score, genre, console, and more."
 
+## Interactive Dashboard
+- [View Dashboard](https://public.tableau.com/app/profile/amana.ezennia/viz/VideoGameSales_17428347284370/VideoGameSalesDashboard)
+
 ## Tools Used
 - Tableau
 
