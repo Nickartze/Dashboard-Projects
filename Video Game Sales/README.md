@@ -1,18 +1,15 @@
-# 2024 Cyclistic Chicago bike-share analysis
-This bike-share data analysis project analyzes how casual and member differ, using the
-results to create a business sales plan to convert.
+# Video Game Sales 1971-2024 Dashboard 
+"Video game sales from North America, Japan, the EU, Africa, and the rest of the world for 64,016 titles released from 1971-2024, including information like critic's score, genre, console, and more."
 
 ## Tools Used
-- Excel
-- PowerPoint
+- Tableau
 
 ## Data Sources
-This project utilizes datasets from the Google Data Analytics Capstone Course:
-- [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone/home/welcome)
+This project utilizes datasets from the Maven Analytics Playground:
+- [Maven Analytics Playground](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=game)
 
 ## Article
-To get a deeper dive into the analysis, look to:
-- https://medium.com/@easg9953/2024-cyclistic-chicago-bike-share-analysis-converting-casual-riders-to-annual-members-2bc97a3cdc73
+Nil
 
 ## Contact
 For any questions:
