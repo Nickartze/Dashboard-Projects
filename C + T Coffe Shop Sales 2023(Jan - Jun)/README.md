@@ -1,13 +1,13 @@
-# Coffee Shop Sales Tea and Coffee product breakdown Jan - Jun 2023
+# Coffee Shop Sales: Tea and Coffee Product Breakdown, Jan - Jun 2023
 
 
 
-### selecting project database
+## Selecting project database
 ````
 use projects;
 ````
 
-### creating table for data ingestion
+## Creating table for data ingestion
 ````
 /*
 # table formatting
@@ -30,20 +30,20 @@ productt_detail varchar(100))
 
 ***
 
-### Taking a look at the dataset
+## Taking a look at the dataset
 ````
 select *
 from coffee_shop_sales
 limit 5;
 ````
 
-### first and last day of sales
+## First and last day of sales
 ````
 select min((transaction_date)) first_day, max(transaction_date) last_day
 from coffee_shop_sales;
 ````
 
-### checking count of rows
+## Checking count of rows
 ````
 select count(*)
 from coffee_shop_sales;
@@ -51,13 +51,13 @@ from coffee_shop_sales;
 
 ***
 
-### Checking distinct product categories
+## Checking distinct product categories
 ````
 select distinct product_category
 from coffee_shop_sales;
 ````
 
-### Filtering and checking count for **tea** and **coffee** for analysis
+## Filtering and checking count for **tea** and **coffee** for analysis
 ````
 select count(*)
 from(
@@ -66,7 +66,7 @@ from coffee_shop_sales
 where product_category = 'coffee' or product_category = 'tea')a;
 ````
 
-### available coffee and tea product types and details
+## Available coffee and tea product types and details
 ````
 select distinct product_category, product_type, product_detail
 from coffee_shop_sales
@@ -76,14 +76,14 @@ order by 1;
 
 ***
 
-### store locations
+## Store locations
 ````
 select distinct store_location
 from coffee_shop_sales
 where product_category = 'coffee' or product_category = 'tea';
 ````
 
-### store income from tea and coffee sales
+## Store income from tea and coffee sales
 ````
 select store_location, product_category, sum(unit_price * transaction_qty) total_made
 from coffee_shop_sales
@@ -94,7 +94,7 @@ order by 1;
 
 ***
 
-### monthly income from tea and coffee sales
+## Monthly income from tea and coffee sales
 ````
 select monthname(transaction_date) month, product_category, sum(unit_price * transaction_qty) total_made
 from coffee_shop_sales
@@ -104,7 +104,7 @@ group by 1,2;
 
 ***
 
-### final select query for dashboard creation
+## Final select query for dashboard creation
 ````
 select 
 	transaction_id, 
@@ -121,4 +121,6 @@ where product_category = 'coffee' or product_category = 'tea'
 
 ***
 
-Source file
+## Source file
+
+- [Coffee Shop Sales](https://www.mavenanalytics.io/data-playground/coffee-shop-sales)
