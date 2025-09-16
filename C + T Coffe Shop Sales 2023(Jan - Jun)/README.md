@@ -1,6 +1,12 @@
 # Coffee Shop Sales: Tea and Coffee Product Breakdown, Jan - Jun 2023
 
+***
 
+### Data Viz
+
+[Coffee Shop Sales Dashboard](https://public.tableau.com/app/profile/amana.ezennia6720/viz/CoffeeShopSales-TeaandCoffee/Dashboard1?publish=yes)
+
+***
 
 ## Selecting project database
 ````
