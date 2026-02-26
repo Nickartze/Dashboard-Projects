@@ -45,7 +45,7 @@ Full Meals vs Sides: Adding more full-priced meal options, as most of the items 
 
 
 ## Dashboard
-The Tableau dashboard can be found here.
+The Tableau dashboard can be found [here](https://public.tableau.com/app/profile/amana.ezennia6720/viz/RestaurantOrderAnalysis_17714270602260/Dashboard1).
 ![Dashboard](https://github.com/Nickartze/Files/blob/main/Restaurant%20Orders%20Analysis/Restaurant%20Orders%20Dashboard.png)
 
 
